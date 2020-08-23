@@ -19,4 +19,3 @@ client.send('GET / HTTP/1.1\r\nHost: google.com\r\n\r\n'.encode())
 response = client.recv(4096)
 
 print(response)
-
